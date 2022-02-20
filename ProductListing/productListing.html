@@ -32,52 +32,66 @@
             </a>
         </div>  
     </nav>
-    <aside class="filter-wrapper">
-        <div class="flex-coloumn">
-            <h3>Filters 
-                <a href="/" class="clear">clear</a>
-            </h3>
-            
+
+    <main class="filter-wrapper">
+
+
+    <div class="filter">
+        <aside class="flex-column">
+            <h4>Filters <a href="/" class="clear">clear</a></h4>
             <h4 class="margin-top">Price</h4>
                 <div class="space-between">
                     <span>50</span>
                     <span>100</span>
                     <span>150</span>
                 </div>
-            <!-- </div> -->
+
             <input type="range" class="range"/>
             <label for=""></label>
 
             <h4 class="margin-top">Category</h4>
-            <input type="checkbox" name="Bats" />
-            <label>Bats</label><br>
-            <input type="checkbox" name="Balls" />
-            <label>Balls</label><br>
-            <input type="checkbox" name="Stumps" />
-            <label>Stumps</label><br>
-            <input type="checkbox" name="Gloves" />
-            <label>Gloves</label><br>
+            <div>
+                <input type="checkbox" name="Bats" />
+                <label>Bats</label><br>
+                <input type="checkbox" name="Balls" />
+                <label>Balls</label><br>
+                <input type="checkbox" name="Stumps" />
+                <label>Stumps</label><br>
+                <input type="checkbox" name="Gloves" />
+                <label>Gloves</label><br>
+            </div>
+            
 
             <h4 class="margin-top">Rating</h4>
-            <input type="radio" name="rating" value="4" id="rating-4" />
+            <div>
+                <input type="radio" name="rating" value="4" id="rating-4" />
             <label for="rating-4">4 star and above</label><br>
             <input type="radio" name="rating" value="3" id="rating-3" />
             <label for="rating-3">3 star and above</label><br>
             <input type="radio" name="rating" value="2" id="rating-2" />
             <label for="rating-2">2 star and above</label><br>
 
+            </div>
+            
+
             <h4 class="margin-top">Sort By</h4>
-            <input type="radio" name="sort-by" />
+            <div>
+                <input type="radio" name="sort-by" />
             <label>Price - Low to High</label><br>
             <input type="radio" name="sort-by" />
             <label>Price - High to Low</label><br>
 
+            </div>
+            
+
+            </aside>
+
         </div>
 
-    </aside>
 
+    <div>
+        <div class="cards">
 
-    <main class="cards">
         <div class="flex-coloumn product">
             <div>
                 <img class="product-image" src="../Assets/Images/ball.jpg" alt="Bat">
@@ -196,6 +210,7 @@
             </span>
 
         </div>
+    </div>
 
     </main>
 
