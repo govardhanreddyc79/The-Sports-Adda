@@ -1,0 +1,16 @@
+.filter-wrapper {
+    height: 100vh;
+    padding: 1rem;
+    width: 250px;
+}
+.clear {
+    margin-left: 6rem;
+    text-decoration: none;
+}
+.range {
+    width: 100%;
+}
+.cards {
+    margin-left: auto;
+    flex-grow: 1;
+}
