@@ -24,4 +24,11 @@ p {
     justify-content: center;
     align-items: center;
 }
+@media only screen and (max-width: 800px)  {
+    .search  {
+        margin: 1rem 0rem;
+    }
+    
+    }
+
 

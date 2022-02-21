@@ -14,6 +14,7 @@ p {
     box-shadow:  0 4px 8px 0 var(--secondary-color);
     position: relative;
     padding-bottom: 1rem;
+    min-width: 270px;
     
 }
 .wish-product-image {
