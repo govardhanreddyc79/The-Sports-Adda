@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheSportsAdda | Cart Management</title>
+    <link href="https://ozone-ui.netlify.app/Docs/doc.css" rel="stylesheet" type="text/css">
+    <link href="https://ozone-ui.netlify.app/Components/Button/button.css" rel="stylesheet" type="text/css">
+    <link href="../index.css" rel="stylesheet" type="text/css">
+    <link href="../CartManagement/cartManagement.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <nav class="nav space-around">
+        <div>
+            <a class="nav-header" href="">The Sports Adda</a>
+        </div>
+        <div>
+            <input type="text" placeholder="Find here" class="search">
+        </div>
+        <div class="nav-links margin-left">
+           
+            <button class="btn solid-btn submit">Login</button>  
+            <a class="nav-item" href="#">
+                <i class="nav-icon fa-solid fa-cart-shopping"></i>
+            </a>
+            <a class="nav-item" href="#">
+                <i class="nav-icon fa-solid fa-heart"></i>
+            </a>
+        </div>  
+    </nav>
+    <main class="cart">
+        <div class="flex-row product-container">
+            <div >
+                <img class="product-image" src="../Assets/Images/bat.jpeg" alt="">
+            </div>
+            <div class="product-description">
+                <h2>Cricket Bat</h2>
+                <div class="price">
+                    <span class="price-bold"> Rs.2000</span>
+                    <span class="text-strike">3999</span>
+                </div>
+                <div>50% off</div>
+                <div>
+                    <label for="quantity" class="quantity">Quantity:</label>
+                    <input class="quantity" id="quantity" type="number" min="1" placeholder="2"/>
+                </div>
+
+                <button class="btn solid-btn submit btn-width">Remove From Cart</button>
+                <button class="btn solid-btn secondary btn-width">Move to Wishlist</button>
+
+            </div>
+        </div>
+
+        <div class="price-details">
+            <h3>PRICE DETAILS</h3>
+            <hr>
+            <div class="space-between">
+                <p>Price (2items)</p>
+                <p>Rs.7998</p>
+            </div>
+            <div class="space-between">
+                <p>Discount</p>
+                <p>Rs.3998</p>
+            </div>
+            <div class="space-between">
+                <p>Delivery Charges</p>
+                <p>Rs.499</p>
+            </div>
+            <hr>
+            
+            <div class="space-between">
+                <h3>TOTAL AMOUNT</h3>
+                <h3>Rs.4499</h3>
+            </div>
+            <hr>
+            <p>You will save Rs.3998 on this order</p>
+            <button class="btn solid-btn submit btn-width">PLACE ORDER</button>
+            
+        </div>  
+    </main>
+
+    <script src="https://kit.fontawesome.com/bbba0f11e7.js " crossorigin="anonymous "></script>
+</body>
+</html>
