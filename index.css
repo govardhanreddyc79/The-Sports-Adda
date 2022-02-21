@@ -34,6 +34,7 @@
 .cat-item {
     font-size: 1.5rem;
     text-decoration: none;
+    color: var(--secondary-color);
 }
 .home-logo {
     width: 45rem;
