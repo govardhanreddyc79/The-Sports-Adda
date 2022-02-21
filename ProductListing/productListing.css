@@ -1,0 +1,21 @@
+.filter {
+    height: 100vh;
+    padding: 1rem;
+    width: 300px;
+
+}
+.filter-wrapper {
+    display: flex;
+    gap: 5rem;
+}
+.clear {
+    margin-left: 8rem;
+}
+.range {
+    width: 100%;
+}
+.cards {
+    display: flex;
+    flex-flow: row wrap;
+    gap:3rem;
+}
