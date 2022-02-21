@@ -14,21 +14,22 @@
 <body>
     <nav class="nav space-around">
         <div>
-            <a class="nav-header" href="">The Sports Adda</a>
+            <a class="nav-header" href="../index.html" target="_blank">The Sports Adda</a>
         </div>
         <div>
             <input type="text" placeholder="Find here" class="search">
         </div>
         <div class="nav-links margin-left">
-           
+           <a href="../Authentication/login.html" target="_blank">
             <button class="btn solid-btn submit">Login</button>  
-            <a class="nav-item" href="#">
+        </a>
+            <a class="nav-item" href="../CartManagement/cartManagement.html" target="_blank">
                 <i class="nav-icon fa-solid fa-cart-shopping"></i>
             </a>
-            <a class="nav-item" href="#">
+            <a class="nav-item" href="../Wishlist/wishlist.html" target="_blank">
                 <i class="nav-icon fa-solid fa-heart"></i>
             </a>
-        </div>  
+        </div>
     </nav>
 
     <main class="filter-wrapper">
@@ -36,8 +37,11 @@
 
     <div class="filter">
         <aside class="flex-column">
-            <h4>Filters <a href="/" class="clear">clear</a></h4>
-            <h4 class="margin-top">Price</h4>
+            <div class="flex-row space-between">
+                <h3>Filters</h3>
+                <a href="/" class="clear">clear</a>
+            </div>
+            <h3 class="margin-top">Price</h3>
             <div class="space-between">
                 <span>50</span>
                 <span>100</span>
@@ -47,7 +51,7 @@
             <input type="range" class="range"/>
             <label for=""></label>
 
-            <h4 class="margin-top">Category</h4>
+            <h3 class="margin-top">Category</h3>
             <div>
                 <input type="checkbox" name="Bats" />
                 <label>Bats</label><br>
@@ -59,7 +63,7 @@
                 <label>Gloves</label><br>
             </div>
             
-            <h4 class="margin-top">Rating</h4>
+            <h3 class="margin-top">Rating</h3>
             <div>
                 <input type="radio" name="rating" value="4" id="rating-4" />
             <label for="rating-4">4 star and above</label><br>
@@ -69,7 +73,7 @@
             <label for="rating-2">2 star and above</label><br>
             </div>
             
-            <h4 class="margin-top">Sort By</h4>
+            <h3 class="margin-top">Sort By</h3>
             <div>
                 <input type="radio" name="sort-by" />
             <label>Price - Low to High</label><br>
@@ -85,7 +89,7 @@
 
         <div class="flex-coloumn product">
             <div>
-                <img class="product-image" src="../Assets/Images/ball.jpg" alt="Bat">
+                <img class="wish-product-image" src="../Assets/Images/ball.jpg" alt="Ball">
             </div>
             <div class="product-description"> 
                 <p>Cricket Ball</p>
@@ -102,24 +106,7 @@
 
         <div class="flex-coloumn product">
             <div>
-                <img class="product-image" src="../Assets/Images/ball.jpg" alt="Bat">
-            </div>
-            <div class="product-description"> 
-                <p>Cricket Ball</p>
-                <p>Rs.1999</p>
-            </div>
-            
-            <button class="btn solid-btn submit btn-width">Go to Cart</button>
-            <button class="btn solid-btn secondary btn-width">Add to Wishlist</button>
-            <span class="badge-icon flex-center">
-                <i class="fa-solid fa-heart"></i>
-            </span>
-
-        </div>
-
-        <div class="flex-coloumn product">
-            <div>
-                <img class="product-image" src="../Assets/Images/ball.jpg" alt="Bat">
+                <img class="wish-product-image" src="../Assets/Images/ball.jpg" alt="Ball">
             </div>
             <div class="product-description"> 
                 <p>Cricket Ball</p>
@@ -136,7 +123,7 @@
 
         <div class="flex-coloumn product">
             <div>
-                <img class="product-image" src="../Assets/Images/ball.jpg" alt="Bat">
+                <img class="wish-product-image" src="../Assets/Images/ball.jpg" alt="Bat">
             </div>
             <div class="product-description"> 
                 <p>Cricket Ball</p>
@@ -153,7 +140,7 @@
 
         <div class="flex-coloumn product">
             <div>
-                <img class="product-image" src="../Assets/Images/ball.jpg" alt="Bat">
+                <img class="wish-product-image" src="../Assets/Images/ball.jpg" alt="Bat">
             </div>
             <div class="product-description"> 
                 <p>Cricket Ball</p>
@@ -170,7 +157,7 @@
 
         <div class="flex-coloumn product">
             <div>
-                <img class="product-image" src="../Assets/Images/ball.jpg" alt="Bat">
+                <img class="wish-product-image" src="../Assets/Images/ball.jpg" alt="Bat">
             </div>
             <div class="product-description"> 
                 <p>Cricket Ball</p>
@@ -187,7 +174,24 @@
 
         <div class="flex-coloumn product">
             <div>
-                <img class="product-image" src="../Assets/Images/ball.jpg" alt="Bat">
+                <img class="wish-product-image" src="../Assets/Images/ball.jpg" alt="Bat">
+            </div>
+            <div class="product-description"> 
+                <p>Cricket Ball</p>
+                <p>Rs.1999</p>
+            </div>
+            
+            <button class="btn solid-btn submit btn-width">Move to Cart</button>
+            <button class="btn solid-btn secondary btn-width">Add to Wishlist</button>
+            <span class="badge-icon flex-center">
+                <i class="fa-solid fa-heart"></i>
+            </span>
+
+        </div>
+
+        <div class="flex-coloumn product">
+            <div>
+                <img class="wish-product-image" src="../Assets/Images/ball.jpg" alt="Bat">
             </div>
             <div class="product-description"> 
                 <p>Cricket Ball</p>
