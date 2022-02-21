@@ -18,8 +18,10 @@
     width:150px;
     height:25vh;
 }
-.product-description {
+.product-description-cart {
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 .price {
     font-size: 1.5rem;
