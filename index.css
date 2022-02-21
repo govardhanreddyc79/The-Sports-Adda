@@ -1,6 +1,11 @@
 
-@import url('../CSS/nav.css');
-@import url('../CSS/utility.css');
+@import url('./CSS/nav.css');
+@import url('./CSS/utility.css');
+@import url('./CSS/variable.css');
+@import url('./Wishlist/wishlist.css');
+@import url('./CartManagement/cartManagement.css');
+@import url('./Authentication/login.css');
+@import url('./ProductListing/productListing.css');
 
 .category {
     display: flex;
