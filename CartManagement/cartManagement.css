@@ -9,8 +9,6 @@
     gap:1rem;
     border: 2px solid var(--primary-color);
     border-radius: 1rem;
-
-
 }
 .quantity {
     width: 20%;
